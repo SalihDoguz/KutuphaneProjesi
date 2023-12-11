@@ -1,0 +1,31 @@
+﻿/*.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+
+}*/

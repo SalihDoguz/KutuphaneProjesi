@@ -1,0 +1,37 @@
+﻿@model Book
+
+<form method="post">
+
+    <div class="border pt-3 mt-5">
+        <div class="row pb-3">
+            <h2 class="text-primary">Kitap Sil</h2>
+            <hr />
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="BookName" class="pt-0"></label>
+            <input asp-for="BookName" disabled class="form-control" />
+            
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description" class="pt-0"></label>
+            <input asp-for="Description" disabled class="form-control" />
+            
+        </div>
+        <div class="mb-3">
+            <label asp-for="Author" class="pt-0"></label>
+            <input asp-for="Author" disabled class="form-control" />
+            
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="pt-0"></label>
+            <input asp-for="Price" disabled class="form-control" />
+            
+        </div>
+
+        <button type="submit" class="btn btn-lg btn-primary" style="width:250px">Kitap Sil</button>
+        <a asp-controller="Book" asp-action="Index" class="btn btn-lg btn-primary" style="width:250px">Kitap Listesine Geri Dön</a>
+
+    </div>
+
+</form>
